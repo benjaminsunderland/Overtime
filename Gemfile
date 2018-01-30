@@ -15,7 +15,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'mysql2'
 gem 'devise'
-
+gem 'bootstrap-sass'
 group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
