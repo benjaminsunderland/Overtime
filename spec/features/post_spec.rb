@@ -27,6 +27,13 @@ describe 'index' do
   end
 end
 
+describe 'new' do
+  it 'will click on new post' do
+  visit new_post_path
+  click_link("new_post_from_nav")
+ end
+end
+
 describe 'creation' do
 	before do
 		visit new_post_path
